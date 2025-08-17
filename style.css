@@ -21,3 +21,11 @@ body::before {
   background-position: center;
   background-size: cover;
 }
+
+.login-wrapper {
+  width: 400px;
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  --webkit-backdrop-filter: blur(8px);
+}
