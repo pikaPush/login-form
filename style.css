@@ -98,3 +98,12 @@ form h2 {
 .password-option label p {
   margin-left: 8px;
 }
+
+.login-wrapper a {
+  color: #efefef;
+  text-decoration: none;
+}
+
+.login-wrapper a:hover {
+  text-decoration: underline;
+}
