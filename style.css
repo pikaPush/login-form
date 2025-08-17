@@ -32,4 +32,16 @@ body::before {
   backdrop-filter: blur(8px);
   --webkit-backdrop-filter: blur(8px);
   border-radius: 8px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 20px;
 }
